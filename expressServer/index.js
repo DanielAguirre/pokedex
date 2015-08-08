@@ -3,6 +3,7 @@
 const path = require('path')
 const express = require('express')
 const swig = require('swig')
+const bodyParser = require('body-parser')
 
 
 function ExpressServer (){

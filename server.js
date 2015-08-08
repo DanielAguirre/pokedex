@@ -1,6 +1,6 @@
 'use strict'
 
-const env = proccess.env.NODE_ENV || 'development'
+const env = process.env.NODE_ENV || 'development'
 const http = require('http')
 const expressServer = require('./expressServer')
 const app = new expressServer()
