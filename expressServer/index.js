@@ -4,7 +4,7 @@ const path = require('path')
 const express = require('express')
 const swig = require('swig')
 const bodyParser = require('body-parser')
-
+const urls = require('./urls')
 
 function ExpressServer (){
 	this.expressServer = express()
